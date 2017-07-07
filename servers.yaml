@@ -1,0 +1,7 @@
+---
+- name: netdata-master1
+  ip: 192.168.3.2
+  script: master/master.sh
+- name: netdata-slave1
+  ip: 192.168.3.3
+  script: slave/slave.sh
